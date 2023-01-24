@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Marko+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #c9ddff;
+  font-size: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+h2,
+h3 {
+  margin: 0px 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  height: 100px;
+}
+header {
+  font-family: "Marko One", sans-serif;
+}
+
+.mac {
+  background-color: #2d3142;
+  border-radius: 1.2rem;
+  margin: 10px;
+}
+
+.windows {
+  background-color: #4f5d75;
+  border-radius: 1.2rem;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  margin-top: 10px;
+}
+p {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+a {
+  margin-left: 10px;
+}
